@@ -4,27 +4,32 @@
 }
 .header{
     background-color: black;
-
+    color: white;
     height: 10vh;
+
+    
 }
 
 .main-content{
-    background-color: rgb(225, 167, 59);
+    background-color: white;
 
 }
 .items{
     
+    /* transition: 0.8s ease ; */
     width: max-content;
     margin: 25px;
-    border: 1px solid orange;
-    border-radius: 0 0 50px 0px;
-    background-color: rgb(196, 156, 82);
+    border-radius: 20px;
+    background-color: white;
     text-align: center;
     display: inline-block;
 
 }
 
 .items:hover{
+    border: 1px solid grey;
+
+    /* transform: scale(1.1); */
     box-shadow: 0 0 10px 3px;
 }
 
@@ -35,7 +40,8 @@
 .item-image-size{
     height: 200px;
     width: 300px;
-    padding: 5px;
+    padding: 10px;
+    border-radius: 30px;
 }
 
 .description{
